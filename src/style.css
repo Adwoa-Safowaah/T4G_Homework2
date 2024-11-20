@@ -1,12 +1,66 @@
-.MyPicture{border-radius: 70%;
-
+.MyPicture{
+    /* border-radius: 70%; */
+    width: 220px; /* adjust the width*/
+    height: 200px; /* adjust the height*/
 }
 
+.img1{
+    /* clip-path: circle(100% at center); */
+    border: 2px yellow groove;
+    border-radius: 200px;
+    
+  
+
+}
 .content{display: flex;
     justify-content: center;
 }
 
-.Safowaah{background-color: blue;
+.Safowaah{
+    background-color: blue;
     padding: 0px 400px 0px 400px;
 
+}
+
+h3{
+    color: blue;
+}
+
+.image-container{
+    display: inline-flex;
+    align-items: center;
+    margin: 25px;
+}
+
+.image-container :hover{
+    background-color: rgb(34, 81, 232);
+}
+
+.Project{
+    background-color: yellow;
+    margin: 1px;
+    padding: 8px;
+}
+
+.img2{
+    border: 1px double rgb(34, 81, 232) ;
+    justify-content:space-evenly;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor:grabbing;
+ 
+}
+
+.B1{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    margin: 20px;
+    border: blue 5px;
+    border-radius: 5px;
+}
+
+.smalldiv{
+    height: 200px;
 }
